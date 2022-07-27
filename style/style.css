@@ -18,7 +18,7 @@
 }
 .mnu-b::before{
     content: "";
-    height: 3px;
+    height: 5px;
     width: 100%;
     opacity: 0;
     left: 0;
@@ -36,9 +36,20 @@
 .mnu-b:hover:before{
     transform: scaleX(1);
     transform-origin: left;
+    
+    
 }
-@media screen {
+@media screen and (max-width: 992px) {
     .mnu-b::before{
-        height: 0;
+        height: 0px;
     }
+}
+
+.cl-img{
+    filter: brightness(50%);
+    position: relative;
+}
+.cl-title{
+    top: 40%;
+    color: white;
 }
