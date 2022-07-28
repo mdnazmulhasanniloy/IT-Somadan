@@ -54,3 +54,24 @@
     top: 40%;
     color: white;
 }
+footer{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    background: #161616;
+    color: white;
+}
+footer h1{
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+.social-button{
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.social-button:hover{
+    background: tomato;
+    color: wheat;
+
+}
