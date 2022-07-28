@@ -54,6 +54,13 @@
     top: 40%;
     color: white;
 }
+
+.redy-joine{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    background: #289BDE;
+}
 footer{
     margin-top: 100px;
     height: 500px;
@@ -73,5 +80,4 @@ footer h1{
 .social-button:hover{
     background: tomato;
     color: wheat;
-
 }
